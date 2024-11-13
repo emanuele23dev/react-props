@@ -1,0 +1,14 @@
+.play {
+  margin-top: 15px;
+  margin-left: 10px;
+  padding: 7px 25px;
+  background-color: rgb(255, 98, 0);
+  color: white;
+  border: 0;
+}
+
+.play:hover {
+  background-color: transparent;
+  border: 1px solid rgb(255, 98, 0);
+  color: rgb(255, 98, 0);
+}

@@ -1,0 +1,23 @@
+.blogCard {
+  box-shadow: 3px 3px 10px rgba(0, 0, 0, 0.2);
+  margin-top: 50px;
+  background-color: white;
+  border-radius: 20px;
+  overflow: hidden;
+  height: 470px;
+  width: 350px;
+  img {
+    width: 350px;
+  }
+
+  h3,
+  p {
+    margin-top: 15px;
+    margin-left: 10px;
+    font-size: 13px;
+  }
+}
+
+.blogCard:hover {
+  transform: scale(1.05);
+}
