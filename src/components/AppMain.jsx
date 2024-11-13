@@ -13,10 +13,11 @@ export default function AppMain() {
           {cards.map((card) => (
             <BlogCard
               key={card.id}
-              title={card.title}
-              image={card.image}
-              content={card.content}
-              tags={card.tags}
+              // title={card.title}
+              // image={card.image}
+              // content={card.content}
+              // tags={card.tags}
+              data={card}
             />
           ))}
         </section>
