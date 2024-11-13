@@ -21,3 +21,20 @@
 .blogCard:hover {
   transform: scale(1.05);
 }
+
+.html {
+  color: red;
+  font-weight: bold;
+}
+.css {
+  color: rgb(64, 0, 255);
+  font-weight: bold;
+}
+.js {
+  color: yellow;
+  font-weight: bold;
+}
+.php {
+  color: rgb(255, 0, 183);
+  font-weight: bold;
+}

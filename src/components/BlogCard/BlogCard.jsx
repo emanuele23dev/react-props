@@ -10,7 +10,13 @@ export default function BlogCard(props) {
       <div className="blog-title-card">
         <h3>{props.title}</h3>
         <p>{props.content}</p>
-        <p>{props.tags}</p>
+        <p>
+          {props.tags.map((tag) => (
+            <span className={style[tag]}>
+              {tag}{' '}
+            </span>
+          ))}
+        </p>
       </div>
 
       <Button />
